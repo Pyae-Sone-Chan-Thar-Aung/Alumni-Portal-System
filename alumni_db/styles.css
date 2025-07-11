@@ -1,0 +1,111 @@
+/* Theme Colors */
+:root {
+  --primary-color: #FFD700; /* Gold */
+  --secondary-color: #003366; /* Dark Blue */
+  --background-color: #FFFFFF; /* White */
+  --text-color: #333333; /* Dark Gray */
+}
+
+/* General Styles */
+body {
+  background-color: var(--background-color);
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--background-color);
+  padding: 20px 0;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: var(--secondary-color) !important;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #002244 !important; /* Darker Blue */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  max-width: 100px;
+  margin-right: 15px;
+}
+
+.logo-container span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.site-slogan {
+  display: block;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.quicklinks {
+  text-align: right;
+}
+
+.quicklinks .nav {
+  display: flex;
+  gap: 15px;
+}
+
+.quicklinks .nav a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.quicklinks .nav a:hover {
+  color: var(--primary-color);
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px 0;
+}
+
+.card {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  color: var(--secondary-color);
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+  background-color: #002244; /* Darker Blue */
+  border-color: #002244;
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
